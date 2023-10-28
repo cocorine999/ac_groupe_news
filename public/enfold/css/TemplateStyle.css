@@ -1,0 +1,8 @@
+
+    @font-face {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      src: local("Open Sans Regular"), local("OpenSans-Regular"),
+        url({{asset('fonts/mem8yags126mizpba-ufvz0e.ttf')}}) format("truetype");
+    }

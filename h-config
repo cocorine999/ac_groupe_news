@@ -1,0 +1,13 @@
+heroku config:set APP_KEY=base64:sNJ9wGHWJMRn1gTAKIVgDfu7354U9o7/zucC251ZgoY=
+heroku config:set APP_NAME="Enfold"
+heroku config:set APP_ENV=local
+heroku config:set APP_DEBUG=true
+heroku config:set APP_URL=https://evening-garden-71957.herokuapp.com/
+heroku config:set MAIL_MAILER=smtp
+heroku config:set MAIL_HOST=smtp.gmail.com
+heroku config:set MAIL_PORT=465
+heroku config:set MAIL_USERNAME=traficapp@gmail.com
+heroku config:set MAIL_PASSWORD=traficapp.password
+heroku config:set MAIL_ENCRYPTION=ssl
+heroku config:set MAIL_FROM_ADDRESS=traficapp@gmail.com
+heroku config:set DB_CONNECTION=pgsql

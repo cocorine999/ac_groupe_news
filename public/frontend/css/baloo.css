@@ -1,0 +1,16 @@
+.main-content .widget {
+    margin-bottom: 0;
+}
+
+.widget-title {
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.baloo-about-me .about-image{margin-bottom:20px}.baloo-about-me .widget-title{border:none;margin-bottom:10px}.baloo-about-me .about-info{text-align:center}.baloo-about-me .about-text{margin-bottom:15px}.baloo-about-me .ab-signature img{max-width:160px}.baloo-post-widget .post-title{margin-bottom:0}.baloo-post-widget .post-meta .ath-post,.baloo-post-widget .post-meta .comment-number{display:none}.baloo-post-widget .post-meta .date-post:after{display:none}.baloo-post-widget.list .list-post-thumb .post-item{overflow:hidden;margin-bottom:15px;padding-bottom:15px;border-bottom:1px solid #eee}.baloo-post-widget.list .list-post-thumb .post-item:last-child{border-bottom:none;padding-bottom:0;margin-bottom:0}.baloo-post-widget.list .list-post-thumb .post-format{float:left;width:120px;margin-right:20px}.nav-siderbar .baloo-post-widget.list .list-post-thumb .post-format{width:110px}.baloo-post-widget.list .list-post-thumb .post-info{overflow:hidden}.baloo-post-widget.slide .post-item{position:relative}.baloo-post-widget.slide .post-item:after{content:"";width:100%;height:100%;position:absolute;left:0;top:0;background:rgba(0,0,0,.1);-webkit-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s}.baloo-post-widget.slide .post-item:hover:after{background:rgba(0,0,0,.3)}.baloo-post-widget.slide .post-item .post-format{background-repeat:no-repeat;background-size:cover;background-position:center}.baloo-post-widget.slide .post-item .post-format:before{content:"";display:block;width:100%;padding-top:115%}.baloo-post-widget.slide .post-item .post-info{position:absolute;padding:0 20px;width:100%;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);text-align:center;z-index:2}.baloo-post-widget.slide .post-item .post-cats{margin-bottom:10px}.baloo-post-widget.slide .post-item .post-title{color:#fff;font-size:22px;margin-bottom:10px}.baloo-post-widget.slide .post-item .post-meta{color:#fff}.baloo-post-widget.grid .item-post-first{position:relative}.baloo-post-widget.grid .item-post-first .post-format{margin-bottom:0}.baloo-post-widget.grid .item-post-first .post-info{position:absolute;width:100%;left:0;bottom:0;padding:15px 20px;background:rgba(0,0,0,.5)}.baloo-post-widget.grid .item-post-first .post-title{font-size:18px;color:#fff}.baloo-post-widget.grid .grid-post-thumb .row{margin:0 -10px}.baloo-post-widget.grid .grid-post-thumb .col-sm-6{padding:0 10px;margin-top:20px}.baloo-post-widget.grid .grid-post-thumb .post-format{margin-bottom:10px}.baloo-post-widget.grid .grid-post-thumb .post-title{font-size:14px}

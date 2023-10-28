@@ -1,0 +1,115 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+*{
+	box-sizing: border-box;
+	outline: none!important;
+}
+
+
+.login-page{
+
+	background-image: url('../img/bg.jpg');
+	background-size: cover;
+	height: 70vh;
+  	position: absolute;
+  	top: 0%;
+  	left: 50%;
+	width: 100%;
+	max-width: 500px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 12px;
+	color: #fff;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	padding-top:5px;
+	padding-bottom:-500px;
+	margin-top:0px;
+	margin-left:-250px;
+
+}
+
+.login-page img {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 100px;
+  background: rgba(255,255,255, 0.8);
+  border-radius: 50%;
+}
+
+
+.login-page::after{
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.0);
+	z-index: 1;
+}
+.login-page .box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	z-index: 2;
+}
+
+.login-page .box .form-head h2{
+	text-align: center;
+	margin:20px 0px 20px;
+	color:#ffffff;
+}
+
+.login-page .box .form-body{
+	display: flex;
+	flex-direction: column;
+	margin-top:29px;
+}
+.login-page .box .form-body input{
+	height: 40px;
+	margin-bottom: 28px;
+	border:1.5px solid #ffffff;
+	width: 100%;
+	background-color: transparent;
+	border-radius: 20px;
+	text-align: center;
+	color:#ffffff;
+	transition:box-shadow .5s ease;
+}
+.login-page .box .form-body input:focus{
+	box-shadow: 0px 0px 10px black;
+}
+.login-page .box .form-body input::placeholder{
+	color:#ffffff;
+}
+.login-page .box .form-footer {
+		text-align: right;
+}
+.login-page .box .form-footer button{
+    background: var(--sky);
+	height: 40px;
+	border-radius: 20px;
+	padding: 0px 50px;
+	color:#000000;
+	border:none;
+	cursor: pointer;
+	transition:box-shadow .5s ease;
+	margin-top:10px;
+}
+.login-page .box .form-footer button:hover{
+	box-shadow: 0px 0px 10px black;
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+
+
+

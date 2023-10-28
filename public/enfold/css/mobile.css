@@ -1,0 +1,14 @@
+
+      .header-menu,
+      .mobile-header {
+        transition: 0.5s ease all;
+      }
+
+      .header-menu.scrolled-header,
+      .mobile-header.scrolled-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: 0.5s ease all;
+      }
